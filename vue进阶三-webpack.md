@@ -148,7 +148,7 @@ export default {
 
 > 使用 NPM 安装相关组件依赖时可能会遇到权限问题，此时使用 PowerShell 管理员模式运行即可；开始菜单 -> 鼠标右击 -> Windows PowerShell (管理员)
 
-![](pic/1.png)
+![](https://github.com/totowen/VueLearningNotes/blob/main/pic/2_1.png)
 
 创建一个名为 `hello-vue` 的工程
 
@@ -157,7 +157,7 @@ export default {
 vue init webpack hello-vue
 ```
 
-![](pic/2.png)
+![](https://github.com/totowen/VueLearningNotes/blob/main/pic/2_2.png)
 
 ## 2.安装依赖
 
@@ -174,7 +174,7 @@ npm i element-ui -S
 npm install sass-loader node-sass --save-dev
 ```
 
-![](pic/3.png)
+![](https://github.com/totowen/VueLearningNotes/blob/main/pic/2_3.png)
 
 ```bash
 # 安装依赖
@@ -219,7 +219,7 @@ npm run dev
 - views：用于存放 Vue 视图组件
 - router：用于存放 vue-router 配置
 
-![](pic/5.png)
+![](https://github.com/totowen/VueLearningNotes/blob/main/pic/2_5.png)
 
 ## 2.创建视图
 
