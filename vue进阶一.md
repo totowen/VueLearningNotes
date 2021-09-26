@@ -211,7 +211,7 @@ Vue.componet 实现全局注册
 </html>
 
 ```
-![](pic\2_4.jpg)
+![](https://github.com/totowen/VueLearningNotes/blob/main/pic/2_4.png)
 
 
 
