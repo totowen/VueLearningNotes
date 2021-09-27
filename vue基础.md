@@ -10,7 +10,7 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的**渐�
 - View：视图层，在这里表示 DOM（HTML 操作的元素）
 - ViewModel：连接视图和数据的中间件，**Vue.js 就是 MVVM 中的 ViewModel 层的实现者**
 
-![img](https://github.com/totowen/VueLearningNotes/blob/main/pic/1_1.png)
+![img](pic/1_1.png)
 
 在 MVVM 架构中，是不允许 **数据** 和 **视图** 直接通信的，只能通过 `ViewModel` 来通信，而 ViewModel 就是定义了一个 `Observer` 观察者
 
@@ -37,7 +37,7 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的**渐�
 
 #### 1）数据驱动
 
-![img](https://github.com/totowen/VueLearningNotes/blob/main/pic/1_2.png)
+![img](pic/1_2.png)
 
 当你把一个普通的 JavaScript 对象传给 Vue 实例的 `data` 选项，Vue 将遍历此对象所有的属性，并使用 `Object.defineProperty` 把这些属性全部转为 `getter/setter`。**Object.defineProperty 是 ES5 中一个无法 shim 的特性，这也就是为什么 Vue 不支持 IE8 以及更低版本浏览器**。
 
@@ -446,7 +446,7 @@ new Vue({
 
 仔细看图中说明，观察其中的差异
 
-![](https://github.com/totowen/VueLearningNotes/blob/main/pic/1_3.png)
+![](pic/1_3.png)
 
 ##### 4) 结论
 
